@@ -199,7 +199,7 @@ section{
     border-radius: 50%;
     border: .2rem solid var(--main-color);
     font-size: 20px;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .home-sci a::before{
