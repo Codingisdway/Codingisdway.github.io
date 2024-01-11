@@ -219,11 +219,12 @@ section{
 
 .home-imghover{
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 45%;
-    height: 100%;
+    top:0;
+    height: auto;
+    width: min(1118px, max(100vh, 100vw));
+    left: 67%;
     background: transparent;
+    opacity: .8;
     transition: 3s;
 }
 .home-imghover:hover{
